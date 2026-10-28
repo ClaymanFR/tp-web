@@ -34,3 +34,12 @@
     font-style: italic;
 }
 
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+}
+
+#section_recette li:nth-child(odd) {
+    text-decoration: underline;
+}

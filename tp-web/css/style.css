@@ -5,20 +5,24 @@ body{
 }
 
 #section_ingredients {
-    background-color: rgba(119, 0, 255, 0.4);
+    background-color: rgba(176, 106, 255, 0.4);
 }
+
 
 #section_recette {
     background-color: rgba(242, 255, 0, 0.4);
 }
 
 .txtBlueGrey {
-    color: blue;
+    color: rgb(0, 255, 64);
 }
+
 
 .txtGrey {
     color: grey;
 }
+
+
 
 .gras {
     font-weight: bold;
@@ -28,9 +32,9 @@ body{
     font-size: 2em;
 }
 
-#section_ingredients li {
+/* #section_ingredients li {
     color: white;
-}
+} */
 
 #section_ingredients li:nth-child(2) {
     font-style: italic;
@@ -49,4 +53,13 @@ h1{
 
 a {
     color: rgb(100, 20, 20);
+}
+
+a:hover {
+    color: green;
+}
+
+#section_ingredients li:hover {
+    color: rgba(176, 106, 255, 0.4);
+    background-color: rgb(0, 255, 64);
 }

@@ -66,6 +66,7 @@ body {
   background-image: url("../img/arches.png");
   background-color: rgba(0, 0, 0, 0.1);
   width: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -88,7 +89,7 @@ nav li {
 
 footer {
   background-color: black;
-  with: 100%;
+  width: 100%;
   color: white;
   text-align: center;
 }

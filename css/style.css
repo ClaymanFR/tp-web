@@ -3,7 +3,7 @@
 } */
 
 #section_ingredients {
-    background-color: purple;
+    background-color: lightpink;
 }
 
 #section_recette {
@@ -17,3 +17,12 @@
 .txtGrey {
     color: grey;
 }
+
+.gras {
+    font-weight: bold;
+}
+
+.sizeDeuxEm {
+    font-size: 2em;
+}
+

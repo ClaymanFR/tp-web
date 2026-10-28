@@ -1,4 +1,19 @@
-body{
+/* body{
     background-color :  red ;
-}      
-  
+} */
+
+#section_ingredients {
+    background-color: purple;
+}
+
+#section_recette {
+    background-color: yellow;
+}
+
+.txtBlueGrey {
+    color: blue;
+}
+
+.txtGrey {
+    color: grey;
+}

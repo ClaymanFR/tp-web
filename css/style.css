@@ -26,3 +26,11 @@
     font-size: 2em;
 }
 
+#section_ingredients li {
+    color: white;
+}
+
+#section_ingredients li:nth-child(2) {
+    font-style: italic;
+}
+

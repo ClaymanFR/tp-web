@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image:  url("../img/45-degree-fabric-dark.png");
     background-position: center;
     background-color : rgba(0,0,0,0.1)
@@ -7,7 +7,6 @@ body{
 #section_ingredients {
     background-color: rgba(176, 106, 255, 0.4);
 }
-
 
 #section_recette {
     background-color: rgba(242, 255, 0, 0.4);
@@ -23,7 +22,6 @@ body{
 }
 
 
-
 .gras {
     font-weight: bold;
 }
@@ -35,24 +33,19 @@ body{
 /* #section_ingredients li {
     color: white;
 } */
-
+/*
 #section_ingredients li:nth-child(2) {
     font-style: italic;
 }
 
-h1{
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Montserrat, sans-serif;
-    color: #00ff59;
-}
+
 
 #section_recette li:nth-child(odd) {
     background-color: lightblue;
 }
 
-a {
-    color: rgb(100, 20, 20);
+a:visited {
+    color: rgb(193, 0, 0);
 }
 
 a:hover {
@@ -62,4 +55,22 @@ a:hover {
 #section_ingredients li:hover {
     color: rgba(176, 106, 255, 0.4);
     background-color: rgb(0, 255, 64);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body{
+    font-family: Source Sans Pro, sans-serif;
 }
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Dosis", sans-serif;
+    color: #d8c200;
+}
+
+nav li{
+    list-style: none;
+}
+

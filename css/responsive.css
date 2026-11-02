@@ -1,0 +1,76 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 768px */
+@media all and (max-width:769px) {
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+
+    #imCocktail{
+        width: 45%;
+    }
+
+    #imCocktail img{
+        width: 100%;
+    }
+
+    #section_recette {
+        width: 45%;
+    }
+
+}                       
+                   
+
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 425px */
+@media all and (max-width:426px) {
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+
+    #imCocktail{
+        width: 100%;
+    }
+
+    #imCocktail img:first-child{
+        width: 100%;
+        
+    }
+
+    #imCocktail img:last-child {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+    main p {
+        width: 100%;
+    }
+
+
+    header {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    header ul {
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        padding: 3% 0;
+    }
+
+    main .container {
+        flex-direction: column;
+    }
+
+    #section_recette{
+        margin-bottom: 10%;
+    }
+
+    #section_recette {
+        width: 100%;
+    }
+
+}   

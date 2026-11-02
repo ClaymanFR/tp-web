@@ -140,6 +140,7 @@ main .container {
     position: absolute;
     top: 10px;
     right: 10px;
+    filter: drop-shadow(5px 5px 4px #04040489);
 }
 
 

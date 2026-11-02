@@ -70,6 +70,29 @@
 
       <a href="./dirtyShirley.html">Voir la recette du Dirty Shirley</a> <br />
       <a href="./fireBomb.html">Voir la recette du Fire Bomb</a>
+
+
+      <section id="newsletter">
+        <h2>Inscrivez-vous à notre newsletter</h2>
+        <form action="#" method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required minlength="2" maxlength="20" pattern="[A-ZÀ-Ý][a-zà-ÿ]+(-[A-ZÀ-Ý][a-zà-ÿ]+)?" title="Le nom doit comporter entre 2 et 20 caractères, commencer par une majuscule suivie de minuscules (ex. Dupont ou Martin)." />
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required minlength="2" maxlength="20" pattern="[A-ZÀ-Ý][a-zà-ÿ]+(-[A-ZÀ-Ý][a-zà-ÿ]+)?" title="Le prénom doit comporter entre 2 et 20 caractères, commencer par une majuscule suivie de minuscules (ex. Jean ou Marie-Pierre)." />
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="boisson-preferee">Quelle est votre boisson préférée ?</label>
+          <select id="boisson-preferee" name="boisson-preferee" required>
+            <option value="" selected disabled>Choisissez une boisson</option>
+            <option value="jus-de-tomate">Jus de tomate</option>
+            <option value="coca">Coca</option>
+            <option value="orangina">Orangina</option>
+          </select>
+          <button type="submit">S'inscrire</button>
+        </form>
+
+      </section>
     </main>
 
 

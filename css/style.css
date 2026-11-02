@@ -143,6 +143,47 @@ main .container {
     filter: drop-shadow(5px 5px 4px #04040489);
 }
 
+#newsletter {
+    margin: 10% 0;
+    width: 80%;
+}
+
+form{ 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form label {
+    margin-top: 5%;
+}
+
+/* input#nom, input#prenom{
+    text-transform: capitalize;
+} */
+
+input{
+    transition: all 0.1s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px #fff;
+}
+
+input:focus:invalid {
+    outline: none;
+    border: 2px solid #d8c200;
+    box-shadow: 0 0 5px #b20a37;
+}
+
+input:focus:valid {
+    outline: none;
+    border: 2px solid #d8c200;
+    box-shadow: 0 0 5px #13D393;
+}
+
 
 
 
